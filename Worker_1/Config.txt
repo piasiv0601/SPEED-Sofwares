@@ -1,0 +1,27 @@
+Details about the Code is written here 
+
+Things to be done 
+
+1) Complete the HK code
+2) Check the writing into flash
+
+
+
+
+Config file Details
+
+32 Kb allocated for main code ( 15 Kb as of now ) 0x0000 to 0x8000
+
+Address                  Data 
+
+0x8000                   HV_NOR;
+0x8004					 HV_HIB;
+0x8008					 Coincidence time;
+0x8012					 Samples;
+0x8016					 Threshold_Value;
+0x8020					 LED_Iset;
+0x8024					 Science_data_mode;
+0x8028					 Watchdog_counts;
+0x8032                   SPI_Ports;
+0x8036					 SP_MD_ST_AD;
+0x8040					 SP_MD_ED_AD;	
